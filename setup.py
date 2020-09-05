@@ -23,5 +23,5 @@ setup(name='crow_security',
       keywords='alarm security crow',
       packages=['crow_security'],
       install_requires=[
-          'requests', 'aiohttp'],
+          'aiohttp', 'aiohttp-requests'],
       zip_safe=False)
